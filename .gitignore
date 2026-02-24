@@ -1,5 +1,7 @@
 **/data/
 **/docs/
+**/venv310/
+**.pth
 .DS_Store
 node_modules/
 __pycache__/

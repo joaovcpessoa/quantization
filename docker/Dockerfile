@@ -14,7 +14,6 @@ RUN apt-get update && apt-get install -y \
 
 RUN python3 -m pip install --upgrade pip
 RUN pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-RUN pip install torchao==0.6.1
 RUN pip install pandas numpy matplotlib tqdm
 
 WORKDIR /app
