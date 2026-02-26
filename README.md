@@ -1,5 +1,3 @@
-# Technical Documentation
-
 ## Quantização
 
 A quantização em ponto fixo requer um framework que suporte a conversão de tipos de dados sem perda severa de acurácia. Avaliei o PyTorch por sua flexibilidade em pesquisa, mas mantenho o TensorRT e o TFLite no radar para otimização específica de hardware. A performance final será determinada pelo backend de quantização escolhido.
@@ -205,5 +203,3 @@ Esse objeto herda de `nn.Module`, então ele:
 - Tem métodos como .parameters(), .train(), .eval(), etc.
 
 O método `.to(device)` move o modelo para CPU ou GPU, ou seja, movendo todos os pesos e buffers dessa rede para o dispositivo.
-
-## 
